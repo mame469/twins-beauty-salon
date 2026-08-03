@@ -1,0 +1,424 @@
+/* =====================================
+   APPOINTMENT PAGE
+===================================== */
+
+
+
+
+
+/* =====================================
+   HERO SECTION
+===================================== */
+
+.appointment-hero{
+
+min-height:70vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+text-align:center;
+
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("images/hero1.jpg") center/cover no-repeat;
+
+color:#fff;
+
+padding:120px 20px;
+
+}
+
+
+
+.appointment-hero h1{
+
+font-size:55px;
+
+font-weight:700;
+
+margin-bottom:20px;
+
+font-family:"Playfair Display",serif;
+
+}
+
+
+
+.appointment-hero p{
+
+max-width:700px;
+
+margin:auto;
+
+font-size:18px;
+
+line-height:1.8;
+
+margin-bottom:35px;
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+   BOOKING SECTION
+===================================== */
+
+.booking-section{
+
+padding:100px 0;
+
+background:#fff8fb;
+
+}
+
+
+
+.booking-container{
+
+display:grid;
+
+grid-template-columns:2fr 1fr;
+
+gap:40px;
+
+align-items:start;
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+   BOOKING FORM
+===================================== */
+
+.booking-form{
+
+background:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+}
+
+
+
+.booking-form .form-group{
+
+margin-bottom:20px;
+
+}
+
+
+
+.booking-form input,
+
+.booking-form select,
+
+.booking-form textarea{
+
+width:100%;
+
+padding:16px 18px;
+
+border:1px solid #ddd;
+
+border-radius:12px;
+
+font-size:16px;
+
+outline:none;
+
+transition:.3s;
+
+font-family:"Poppins",sans-serif;
+
+}
+
+
+
+.booking-form input:focus,
+
+.booking-form select:focus,
+
+.booking-form textarea:focus{
+
+border-color:#d63384;
+
+box-shadow:0 0 10px rgba(214,51,132,.15);
+
+}
+
+
+
+.form-row{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:20px;
+
+}
+/* =====================================
+   APPOINTMENT PAGE CSS PART 2
+===================================== */
+
+
+
+
+
+/* =====================================
+   BOOKING INFO
+===================================== */
+
+.booking-info{
+
+background:#d63384;
+
+color:#fff;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+position:sticky;
+
+top:120px;
+
+}
+
+
+
+.booking-info h3{
+
+font-size:28px;
+
+margin-bottom:25px;
+
+font-family:"Playfair Display",serif;
+
+}
+
+
+
+.booking-info ul{
+
+list-style:none;
+
+padding:0;
+
+margin:0;
+
+}
+
+
+
+.booking-info li{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+margin-bottom:18px;
+
+font-size:16px;
+
+line-height:1.6;
+
+}
+
+
+
+.booking-info i{
+
+color:#ffd166;
+
+font-size:18px;
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+   BUTTON
+===================================== */
+
+.booking-form .btn{
+
+width:100%;
+
+padding:16px;
+
+border:none;
+
+border-radius:50px;
+
+background:#d63384;
+
+color:#fff;
+
+font-size:17px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+
+
+.booking-form .btn:hover{
+
+background:#b6256f;
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 25px rgba(214,51,132,.3);
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+   INPUT PLACEHOLDER
+===================================== */
+
+.booking-form input::placeholder,
+
+.booking-form textarea::placeholder{
+
+color:#999;
+
+}
+
+
+
+
+
+
+
+
+/* =====================================
+   RESPONSIVE
+===================================== */
+
+@media(max-width:991px){
+
+.booking-container{
+
+grid-template-columns:1fr;
+
+}
+
+.booking-info{
+
+position:static;
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.appointment-hero{
+
+min-height:55vh;
+
+padding:100px 20px;
+
+}
+
+.appointment-hero h1{
+
+font-size:38px;
+
+}
+
+.appointment-hero p{
+
+font-size:16px;
+
+}
+
+.booking-form{
+
+padding:25px;
+
+}
+
+.form-row{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+
+
+@media(max-width:480px){
+
+.appointment-hero h1{
+
+font-size:30px;
+
+}
+
+.booking-info{
+
+padding:25px;
+
+}
+
+.booking-info h3{
+
+font-size:22px;
+
+}
+
+.booking-form input,
+
+.booking-form select,
+
+.booking-form textarea{
+
+padding:14px;
+
+}
+
+}

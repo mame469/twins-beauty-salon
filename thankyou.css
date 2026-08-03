@@ -1,0 +1,135 @@
+/* =====================================
+   THANK YOU PAGE
+===================================== */
+
+.thank-you{
+
+min-height:100vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+padding:50px 20px;
+
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("images/hero1.jpg") center/cover no-repeat;
+
+}
+
+.thank-box{
+
+max-width:650px;
+
+width:100%;
+
+background:#fff;
+
+padding:60px 40px;
+
+border-radius:25px;
+
+text-align:center;
+
+box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+animation:fadeUp .8s ease;
+
+}
+
+.thank-box i{
+
+font-size:80px;
+
+color:#d63384;
+
+margin-bottom:25px;
+
+}
+
+.thank-box h1{
+
+font-family:"Playfair Display",serif;
+
+font-size:48px;
+
+margin-bottom:20px;
+
+color:#111;
+
+}
+
+.thank-box p{
+
+font-size:18px;
+
+line-height:1.8;
+
+color:#666;
+
+margin-bottom:35px;
+
+}
+
+.thank-buttons{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+@media(max-width:600px){
+
+.thank-box{
+
+padding:40px 25px;
+
+}
+
+.thank-box h1{
+
+font-size:35px;
+
+}
+
+.thank-box p{
+
+font-size:16px;
+
+}
+
+.thank-box i{
+
+font-size:65px;
+
+}
+
+}
+
